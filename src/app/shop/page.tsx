@@ -77,7 +77,7 @@ function ShopContent() {
 
         const queryString = params.toString();
         const baseEndpoint = testProdApi
-          ? 'https://shipofdessert.vercel.app/api/products'
+          ? 'https://kshaum-6q55.vercel.app/api/products'
           : '/api/products';
         const url = queryString ? `${baseEndpoint}?${queryString}` : baseEndpoint;
         
